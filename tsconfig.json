@@ -1,0 +1,36 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "compilerOptions": {
+        "outDir": "./build/",
+        "sourceMap": true,
+        "strict": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "lib": ["es2019"],
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "allowJs": true,
+        "noImplicitAny": false,
+        "paths": {
+            "@/*":["src/*"]
+        },
+        "baseUrl": "./",
+        "typeRoots": [
+            "./node_modules/@types/",
+            "./src/types/"
+        ],
+        "plugins": [
+            { "transform": "@zerollup/ts-transform-paths" }
+        ]
+    },
+    "include": [
+        "./src/**/*",
+        "./postcss.config.js",
+        "./tools/**/*"
+    ]
+}

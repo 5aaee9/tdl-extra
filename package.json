@@ -1,0 +1,26 @@
+{
+  "name": "tdl-extra",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "repository": "https://github.com/Indexyz/tdl-extra.git",
+  "author": "Indexyz <jiduye@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/config": "^0.0.40",
+    "@types/node": "^16.11.7",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "@zerollup/ts-transform-paths": "^1.7.18",
+    "eslint": "^8.2.0",
+    "eslint-config-indexyz": "^1.0.2",
+    "tdl": "^7.0.0",
+    "tdl-tdlib-addon": "^1.0.1",
+    "tdlib-types": "^0.1001007.1",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.11.0",
+    "ttypescript": "^1.5.12",
+    "typescript": "^4.4.4"
+  }
+}
