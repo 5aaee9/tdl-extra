@@ -1,6 +1,6 @@
 {
   "name": "tdl-extra",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.ts",
   "repository": "https://github.com/Indexyz/tdl-extra.git",
   "author": "Indexyz <jiduye@gmail.com>",
@@ -22,5 +22,8 @@
     "tsconfig-paths": "^3.11.0",
     "ttypescript": "^1.5.12",
     "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
   }
 }

@@ -1,3 +1,3 @@
-export function test() {
-    console.log('hello')
-}
+export * from './text'
+export * from './client'
+export * from './photo'
